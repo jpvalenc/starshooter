@@ -1,0 +1,9 @@
+To compile:
+g++ -c main.cpp player.cpp background.cpp asteroid.cpp [first]
+g++ main.o player.o background.o asteroid.o -o sfml-app -lsfml-window -lsfml-system [second]
+./sfml-app [third]
+
+to move:
+Use the arrow keys, but the right is broken, I was testing diagonal movement and havent set it back to regular right movement.
+
+
